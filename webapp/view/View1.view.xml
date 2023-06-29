@@ -10,8 +10,7 @@
 		entitySet="A_PurchaseOrder">
 		<smartFilterBar:controlConfiguration>
 			<smartFilterBar:ControlConfiguration id="con"
-				key="PurchaseOrder" visibleInAdvancedArea="true"
-				preventInitialDataFetchInValueHelpDialog="false">
+				key="PurchaseOrder" visibleInAdvancedArea="true">
 			</smartFilterBar:ControlConfiguration>
 		</smartFilterBar:controlConfiguration>
 	</smartFilterBar:SmartFilterBar>
@@ -20,13 +19,9 @@
 		id="smartTable_ResponsiveTable"
 		smartFilterId="smartFilterBar"
 		tableType="ResponsiveTable"
-		editable="false"
 		entitySet="A_PurchaseOrder"
-		useVariantManagement="true"
-		useTablePersonalisation="true"
-		header="Purchase Order"
-		showRowCount="true"
-		enableExport ="true"
+		header="{i18n>PurchaseOrder}"
+		enableExport="true"
 		enableAutoBinding="true"
 		enableAutoColumnWidth="true"
 		persistencyKey="SmartTablePKey"
